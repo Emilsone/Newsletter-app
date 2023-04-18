@@ -1,27 +1,28 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <NewsLetter />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NewsLetter from './components/NewsLetter.vue'
+// import {db} from '@/firestoreInit'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NewsLetter
   }
-}
+} 
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Work Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: #2c3e50;
   margin-top: 60px;
 }
