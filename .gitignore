@@ -13,6 +13,11 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# delete files
+yarn.lock
+package-lock.json
+package.json
+
 # Editor directories and files
 .idea
 .vscode
